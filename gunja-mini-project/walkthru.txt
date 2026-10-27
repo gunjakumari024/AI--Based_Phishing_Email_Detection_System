@@ -1,0 +1,19 @@
+Step 1: Start the Backend (Flask & Machine Learning)
+Open your first terminal and run these commands one by one to navigate to the backend folder, activate your Python virtual environment, and start the server:
+
+powershell
+cd backend
+.\venv\Scripts\activate
+python app.py
+(You will know it's working when you see * Running on http://127.0.0.1:5000)
+
+Step 2: Start the Frontend (React UI)
+Open a new, second terminal window, and run these commands to navigate to the frontend folder and start the website:
+
+powershell
+cd frontend
+npm run dev
+(You will see a message with a Local URL like http://localhost:5173/. CTRL+Click that link to open the app in your browser!)
+
+Extra Tip for your Presentation:
+If you ever want to prove to your professors that the AI is learning, you can show them the backend/dataset.csv file, and then run python train.py from the backend terminal to show them how it generates the phishing-mail-v1.joblib file!

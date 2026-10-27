@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  body {
+    /* Pure black to dark charcoal gradient */
+    background: linear-gradient(135deg, #000000 0%, #0f172a 100%);
+    background-attachment: fixed;
+    color: #e2e8f0;
+    font-family: 'Poppins', sans-serif;
+  }
+}
